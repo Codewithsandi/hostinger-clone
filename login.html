@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Log in to Hostinger</title>
+    <link rel="shortcut icon" href="/IMG/icon/favicon-97d9192479.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="logo w-[45%] lg:w-[10%] md:w-[20%] my-8  ml-4 md:ml-8">
+        <a href="index.html"><img src="IMG/logo/Hostinger-logo-1.svg" alt="Hostinger" onclick="location.href='index.html'"></a>
+    </div>
+
+    <section class="log-in md:mx-48 lg:mx-80 xl:mx-[33rem]">
+        <div class="social mx-5 space-y-2">
+            <h1 class="text-2xl text-[#1b745e] mt-10 md:mt-3 text-center mb-8"><b>Log in</b></h1>
+            <div class="flex flex-col md:flex-row justify-center md:space-x-6">
+                <p class="flex border justify-center border-gray-300 rounded h-12 lg:h-14 md:h-[3.5rem] my-3 md:my-0"><img class="w-[2.5rem] mx-1 md:w-[50%]"
+                        src="IMG/logo/Google_Logo.svg" alt="Google_Logo"><b class="pt-[10px] md:hidden">Google</b></p>
+                <p class="flex border justify-center border-gray-300 rounded h-12 lg:h-14 bg-blue-500 md:h-[3.5rem] md:mt-[0px]"><img
+                        class="w-[1.5rem] mx-1 md:w-[50%]" src="IMG/logo/Facebook_Logo.svg" alt="Google_Logo"><b
+                        class="pt-[10px] md:hidden">Facebook</b></p>
+            </div>
+        </div>
+        <div class="flex justify-center items-center my-2">
+            <hr class="h-[-0.25rem] w-[40%]">
+            <p class="mx-2 text-gray-500">or</p>
+            <hr class="h-[-0.25rem] w-[40%]">
+        </div>
+        <div class="flex flex-col justify-center items-center mx-5">
+            <input class="w-full h-12 lg:h-14 border border-gray-300 rounded pl-4  text-md" type="email" placeholder="Email">
+            <div class="w-full">
+            <input class="w-full h-12 lg:h-14 my-4 border border-gray-300 rounded pl-4  text-md" type="password" id="password"
+                placeholder="Password">
+            <span class="block -mt-[3rem] text-end mr-2">
+                <i class="fa-solid fa-eye text-blue-600 text-lg" id="hide1" onclick="hide()" style="display: none;"></i>
+                <i class="fa-solid fa-eye-slash text-gray-500 text-lg" id="hide2" onclick="hide()"></i>
+            </span>
+            </div>
+            <button class="bg-[#0eaa83] w-full h-12 lg:h-14 text-lg rounded-lg my-8 text-white">Log in</button>
+            <a class="text-[#1b745e] text-sm" href="#"><b>Forget Password?</b></a>
+            <p class="my-4 text-center"><b>Not a member yet? <a href="#" class="text-[#1b745e]">Choose a hosting
+                        plan</a> and get started now!</b></p>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
